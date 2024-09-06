@@ -5,28 +5,31 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
 header {
   font-size: 20px;
+  padding: 10px 20px;
+  border-bottom: 1px solid #000;
 }
 
 footer {
   font-size: 13px;
+  padding: 20px 20px;
+  font-weight: 700;
 }
 
 nav {
   display: flex;
   align-items: center;
-  margin-top: -1rem;
-  border-bottom: 1px solid #000;
 }
+
 #logo {
-  align-items: center;
-  margin-right: 1rem;
-  padding: 0;
   color: lightgreen;
   background-color: rebeccapurple;
   font-weight: 700;
+  padding: 5px 15px;
 }
 a {
   color: rebeccapurple;
@@ -36,23 +39,26 @@ a {
 ul {
   display: flex;
   list-style: none;
-  padding: 0;
-  margin-left: 0.5rem;
 }
 ul > li {
-  margin-right: 10px;
+  margin-right: 30px;
 }
 .box {
   display: flex;
-  margin-bottom: 30px;
   gap: 20px;
   border-bottom: 1px solid #000;
 }
 aside {
-  border-right: 1px solid #000;
-  padding-right: 20px;
-  margin-left: 1rem;
+  padding: 10px 20px;
+  background-color: lavender;
 }
+
+section {
+  background-color: lavender;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+
 article {
   padding-bottom: 20px;
 }
